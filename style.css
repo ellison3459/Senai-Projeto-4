@@ -36,6 +36,36 @@ h1 {
      margin: 15px;
  }
 
+ .cards {
+    display: flex;
+   justify-content: space-between;
+   padding-top: 40px;
+   padding: 180px;
+ }
+
+
+
+.card {
+    text-align: center;
+}
+.card-body{
+    background-image: linear-gradient(to bottom right, #00F490, #00BBC9);
+}
+
+.rodape {
+    background-color: rgba(86, 90, 90, 0.089);
+    padding: 20px;
+    text-align: center;
+}
+
+/*tablet*/
+
+@media (max-width: 768px) {
+   .cards {
+display: block;
+   }
+   }
+
 /* Smartphone */
 
 @media (max-width: 500px) {
@@ -43,5 +73,10 @@ h1 {
     .row{
         text-align: center;
     }
-
+    .cards {
+        display: block;
+        padding-top: 200px;
     }
+    }
+
+    
